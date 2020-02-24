@@ -1,0 +1,39 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>
+    <mat-grid-list cols="1" rowHeight="4:3">
+      <mat-grid-tile>
+        <div class="mat-display-1">
+          <img src="../../assets/img/physio-logo-trans2.png" alt="logo" class="logo">
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile>
+
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
+          <p>
+            <mat-form-field appearance="standard">
+              <mat-label>Username</mat-label>
+              <input matInput placeholder="name" class="validate" formControlName="name">
+              <mat-hint *ngIf="formControls.name.invalid && isSubmitted === true">Username is required</mat-hint>
+            </mat-form-field>
+          </p>
+          <p>
+            <mat-form-field appearance="standard">
+              <mat-label>Password</mat-label>
+              <input matInput placeholder="Password" class="validate" formControlName="password">
+              <mat-hint *ngIf="formControls.password.invalid && isSubmitted === true">Password is required</mat-hint>
+            </mat-form-field>
+          </p>
+          <div class="d-flex justify-content-center">
+            <button mat-raised-button color="primary" type="submit">Login</button>
+            <button mat-raised-button [routerLink]="['/registration']">Register</button>
+          </div>
+
+          <div class="d-flex justify-content-center">
+          </div>
+        </form>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-drawer>
+  <mat-drawer-content class="background tint">
+  </mat-drawer-content>
+</mat-drawer-container>

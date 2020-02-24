@@ -1,0 +1,110 @@
+@import '~@angular/material/theming';
+
+@include mat-core();
+
+$md-physiocyan: (
+    50 : #e5f9fe,
+    100 : #bdf1fd,
+    200 : #91e7fc,
+    300 : #65ddfb,
+    400 : #44d6fa,
+    500 : #23cff9,
+    600 : #1fcaf8,
+    700 : #1ac3f7,
+    800 : #15bdf6,
+    900 : #0cb2f5,
+    A100 : #ffffff,
+    A200 : #ebf9ff,
+    A400 : #b8e9ff,
+    A700 : #9fe1ff,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$md-physioyellow: (
+    50 : #fef9e5,
+    100 : #fdf0bd,
+    200 : #fce791,
+    300 : #fbdd65,
+    400 : #fad544,
+    500 : #f9ce23,
+    600 : #f8c91f,
+    700 : #f7c21a,
+    800 : #f6bc15,
+    900 : #f5b00c,
+    A100 : #ffffff,
+    A200 : #fff9eb,
+    A400 : #ffe8b8,
+    A700 : #ffe09f,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #000000,
+        600 : #000000,
+        700 : #000000,
+        800 : #000000,
+        900 : #000000,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$md-physiopink: (
+    50 : #fee5ef,
+    100 : #fdbdd7,
+    200 : #fc91bc,
+    300 : #fb65a1,
+    400 : #fa448d,
+    500 : #f92379,
+    600 : #f81f71,
+    700 : #f71a66,
+    800 : #f6155c,
+    900 : #f50c49,
+    A100 : #ffffff,
+    A200 : #ffebf0,
+    A400 : #ffb8c8,
+    A700 : #ff9fb4,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+);
+
+$physio-app-primary: mat-palette($md-physiocyan);
+$physio-app-accent: mat-palette($md-physioyellow, A200, A100, A400);
+$physio-app-warn: mat-palette($md-physiopink);
+
+$physio-app-theme: mat-dark-theme($physio-app-primary, $physio-app-accent, $physio-app-warn);
+
+@include angular-material-theme($physio-app-theme);

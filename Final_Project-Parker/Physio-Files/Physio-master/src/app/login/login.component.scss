@@ -1,0 +1,28 @@
+.background {
+  background-image: url("../../assets/img/weights.png");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+
+.tint {
+  box-shadow: 0 3000px rgba(0,191,255, 0.4) inset;
+}
+
+.example-container {
+  min-width: 100vw;
+  height: 100vh;
+}
+
+mat-drawer {
+  width: 400px;
+}
+
+.mat-raised-button {
+  margin-right: 10px;
+}

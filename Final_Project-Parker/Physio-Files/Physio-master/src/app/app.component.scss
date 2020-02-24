@@ -1,0 +1,20 @@
+header {
+  border-bottom: solid 1px black;
+}
+
+.tab-logo {
+  height: 75%;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.mat-tab-link {
+  height: 10vh;
+  min-height: 45px;
+}
+
+body {
+  height: 90vh;
+}

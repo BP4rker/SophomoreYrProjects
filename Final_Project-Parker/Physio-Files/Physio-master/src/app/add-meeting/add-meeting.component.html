@@ -1,0 +1,59 @@
+<div class="container">
+  <mat-grid-list cols="3" rowHeight="1:2">
+    <mat-grid-tile>
+      <div class="mat-display-1">
+        Add Meeting
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <form [formGroup]="meetingForm" (ngSubmit)="submit()">
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>name</mat-label>
+            <input matInput placeholder="name" class="validate" formControlName="name">
+          </mat-form-field>
+        </p>
+
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>date</mat-label>
+            <input matInput type="date" class="validate" formControlName="date">
+          </mat-form-field>
+        </p>
+
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>location</mat-label>
+            <input matInput placeholder="location" class="validate" formControlName="location">
+          </mat-form-field>
+        </p>
+
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>goals</mat-label>
+            <input matInput placeholder="goals" class="validate" formControlName="goals">
+          </mat-form-field>
+        </p>
+
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>Client Email</mat-label>
+            <input matInput placeholder="Client Email" class="validate" formControlName="clientEmail">
+          </mat-form-field>
+        </p>
+
+        <p>
+          <mat-form-field appearance="standard">
+            <mat-label>Trainer Email</mat-label>
+            <input matInput placeholder="Trainer Email" class="validate" formControlName="trainerEmail">
+          </mat-form-field>
+        </p>
+
+        <div class="d-flex justify-content-center">
+          <button mat-raised-button color="primary" type="submit">Submit</button>
+        </div>
+      </form>
+    </mat-grid-tile>
+    <mat-grid-tile></mat-grid-tile>
+  </mat-grid-list>
+</div>

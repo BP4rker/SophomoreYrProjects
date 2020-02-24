@@ -1,0 +1,109 @@
+2019-05-02 17:10:43 INFO Log started for: Server.main
+2019-05-02 17:10:43 INFO [Server.main] Starting
+2019-05-02 17:10:43 INFO [Server.main] Skipping First Packet in Window: false
+2019-05-02 17:10:43 INFO [Server.main] Skipping All Packets in Window:  false
+2019-05-02 17:10:43 INFO [Server.UDP] Sstarting Server on Port: 2015
+2019-05-02 17:12:16 INFO Log started for: Server.main
+2019-05-02 17:12:16 INFO [Server.main] Starting
+2019-05-02 17:12:16 INFO [Server.main] Skipping First Packet in Window: false
+2019-05-02 17:12:16 INFO [Server.main] Skipping All Packets in Window:  false
+2019-05-02 17:12:16 INFO [Server.UDP] Sstarting Server on Port: 2015
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- REQ packet for file: README.txt
+2019-05-02 17:12:51 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:50990
+2019-05-02 17:12:51 INFO [Server.Sender] Sending File: README.txt, Size: 223(bytes)
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 15(bytes) of the file.
+2019-05-02 17:12:51 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-02 17:12:51 INFO [Server.UDP] Sending   -----> EOT packet 
+2019-05-02 17:12:51 INFO [Server.Sender] File sent. 223(bytes)
+2019-05-02 17:12:51 INFO [Server.PacketManager] Packet Manager:
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Expected Number of Sent Packets:       15
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Number of packets Resent:               0
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Breakdown:
+2019-05-02 17:12:51 INFO [Server.PacketManager]         Number of ACK Packets:              0
+2019-05-02 17:12:51 INFO [Server.PacketManager]         Number of REQ Packets:              0
+2019-05-02 17:12:51 INFO [Server.PacketManager]         Number of DAT Packets:             14
+2019-05-02 17:12:51 INFO [Server.PacketManager]         Number of ERR Packets:              0
+2019-05-02 17:12:51 INFO [Server.PacketManager]         Number of EOT Packets:              1
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Total Number of Packets Sent:          15
+2019-05-02 17:12:51 INFO [Server.PacketManager] 
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Number of ACKs received:               12
+2019-05-02 17:12:51 INFO [Server.PacketManager]     Number of unexpected ACKs received:     0
+2019-05-02 17:12:51 INFO [Server.PacketManager] 
+2019-05-02 17:12:51 INFO [Server.UDP]     Total Data:                           223
+2019-05-02 17:12:51 INFO [Server.UDP]     Total Data Including Packet Headers:  403
+2019-05-09 12:22:42 INFO Log started for: Server.main
+2019-05-09 12:22:42 INFO [Server.main] Starting
+2019-05-09 12:22:42 INFO [Server.main] Skipping First Packet in Window: false
+2019-05-09 12:22:42 INFO [Server.main] Skipping All Packets in Window:  false
+2019-05-09 12:22:42 INFO [Server.UDP] Sstarting Server on Port: 2015
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- REQ packet for file: README.txt
+2019-05-09 12:23:09 INFO [Server.UDP] Established connection with: /127.0.0.1, Port:64537
+2019-05-09 12:23:09 INFO [Server.Sender] Sending File: README.txt, Size: 223(bytes)
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 2, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 0
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 3, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 1
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 0, containing 16(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 2
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> DAT packet seqNo: 1, containing 15(bytes) of the file.
+2019-05-09 12:23:09 INFO [Server.UDP] Received   <----- ACK packet for sequence number: 3
+2019-05-09 12:23:09 INFO [Server.UDP] Sending   -----> EOT packet 
+2019-05-09 12:23:09 INFO [Server.Sender] File sent. 223(bytes)
+2019-05-09 12:23:09 INFO [Server.PacketManager] Packet Manager:
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Expected Number of Sent Packets:       15
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Number of packets Resent:               0
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Breakdown:
+2019-05-09 12:23:09 INFO [Server.PacketManager]         Number of ACK Packets:              0
+2019-05-09 12:23:09 INFO [Server.PacketManager]         Number of REQ Packets:              0
+2019-05-09 12:23:09 INFO [Server.PacketManager]         Number of DAT Packets:             14
+2019-05-09 12:23:09 INFO [Server.PacketManager]         Number of ERR Packets:              0
+2019-05-09 12:23:09 INFO [Server.PacketManager]         Number of EOT Packets:              1
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Total Number of Packets Sent:          15
+2019-05-09 12:23:09 INFO [Server.PacketManager] 
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Number of ACKs received:               12
+2019-05-09 12:23:09 INFO [Server.PacketManager]     Number of unexpected ACKs received:     0
+2019-05-09 12:23:09 INFO [Server.PacketManager] 
+2019-05-09 12:23:09 INFO [Server.UDP]     Total Data:                           223
+2019-05-09 12:23:09 INFO [Server.UDP]     Total Data Including Packet Headers:  403

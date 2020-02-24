@@ -1,0 +1,11 @@
+.container {
+  margin: 2vh 1vw 2vh 2vw;
+  width: 47vw;
+  height: 86vh;
+  overflow: auto;
+}
+
+table {
+  width: 47vw;
+  height: 86vh;
+}

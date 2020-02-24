@@ -1,0 +1,17 @@
+<body>
+  <app-training-grid (seeTrainer)="receiveTrainer($event)"></app-training-grid>
+  <div *ngIf="this.trainer[0].name !== ''" id="profile">
+    <div id="bio">
+      <img src="assets/img/profile-pic.png" alt="">
+      <div id="bio-info">
+        <span id="name">{{ this.trainer[0].name }} | {{ this.trainer[0].sport }} Trainer</span><br>
+        <span id="desc">Age: {{ this.trainer[0].age }} | Height: {{ this.trainer[0].height }} in. | Weight: {{ this.trainer[0].weight }} lbs</span>
+      </div>
+    </div>
+    <div id="info">
+      <button mat-raised-button color="accent" type="submit">
+        <a [routerLink]="['../meeting/add/', this.trainer[0].email]">Add Meeting</a>
+      </button>
+    </div>
+  </div>
+</body>
